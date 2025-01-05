@@ -15,7 +15,7 @@ tmux send-keys -t visionarytheopayslips:0 'nvim .' C-m
 tmux new-window -t visionarytheopayslips:1
 tmux rename-window -t visionarytheopayslips:1 'terminal'
 tmux send-keys -t visionarytheopayslips:1 'clear' C-m
-tmux split-window -t visionarytheopayslips:1 -h -p 20
+tmux split-window -t visionarytheopayslips:1 -h -p 30
 tmux send-keys -t visionarytheopayslips:1 'clear' C-m
 
 # Create a third window (no need to rename it as you didn’t specify a name)
